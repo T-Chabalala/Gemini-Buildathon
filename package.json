@@ -1,0 +1,10 @@
+{
+  "name": "citizen-service-agent-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "python -m http.server 8000 --directory public",
+    "test": "node --test"
+  },
+  "type": "module"
+}
